@@ -1,0 +1,19 @@
+{
+  "name": "Busque no cifra club",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "Busque por músicas e acordes no Cifra Club",
+  "icons": {
+    "16": "icon.jpg",
+    "48": "icon.jpg",
+    "128": "icon.jpg"
+  },
+  "permissions": [
+    "contextMenus",
+    "tabs"
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "manifest_version": 2
+}
