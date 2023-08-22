@@ -1,7 +1,7 @@
 {
   "name": "Busque no cifra club",
   "version": "1.0",
-  "manifest_version": 2,
+  "manifest_version": 3,
   "description": "Busque por músicas e acordes no Cifra Club",
   "icons": {
     "16": "icon.jpg",
@@ -13,7 +13,6 @@
     "tabs"
   ],
   "background": {
-    "scripts": ["background.js"]
-  },
-  "manifest_version": 2
+    "service_worker": "background.js"
+  }
 }
