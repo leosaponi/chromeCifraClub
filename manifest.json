@@ -4,9 +4,7 @@
   "manifest_version": 3,
   "description": "Busque por músicas e acordes no Cifra Club",
   "icons": {
-    "16": "icon.jpg",
-    "48": "icon.jpg",
-    "128": "icon.jpg"
+    "128": "128.png"
   },
   "permissions": [
     "contextMenus",
